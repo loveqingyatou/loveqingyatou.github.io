@@ -10,3 +10,4 @@ category: blog
 
 
 [BeiYuu]:    http://beiyuu.com  "BeiYuu"
+[1]:    {{ page.url}}  ({{ page.title }})
