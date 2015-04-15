@@ -71,9 +71,13 @@ E:\adt-bundle-windows-x86-20140702，文件架内包括两个子文件夹和一�
 2. 在『Android SDK Manager - Settings』窗口中，在「HTTP Proxy Server」和「HTTP Proxy Port」输入框内填入mirrors.neusoft.edu.cn和80，并且选中「Force https://... sources to be fetched using http://...」复选框。设置完成后单击「Close」按钮关闭『Android SDK Manager - Settings』窗口返回到主界面；
 3. 依次选择「Packages」、「Reload」。
 
+### 解决方法三 ###
+如果SDK还是不能更新的话，那就翻墙吧，下个翻墙软件或者使用VPN，这就不在本文的范畴之内了。
 
 
-[BeiYuu]:    http://beiyuu.com  "BeiYuu"
+
+
+
 [1]:    {{ page.url}}  ({{ page.title }})
 [2]: http://developer.android.com/
 [3]: http://www.oracle.com/technetwork/java/javase/downloads/index.html

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android开发环境搭建-NEW
-description: 使用adt-bundle-windows压缩包安装后发现SDK Manager更新不了列表了，估计是不能用这种方式了，而且官网上也找不到他的下载链接，所以使用下载installer_r24.1.2-windows.exe的方式来搭建环境。
+description: 使用Eclipse来做android开发的另一种方式是使用独立的SDK，然后给Eclipse添加ADT插件。所以这次使用下载installer_r24.1.2-windows.exe的方式来搭建环境。
 category: blog
 ---
 
@@ -35,11 +35,8 @@ category: blog
 
 
 ## android SDK ##
-打开adt-bundle-windows-x86-20140702文件夹中的eclipse并启动，设置工作空间。eclipse界面左上角已经包括了android的工具按钮，如下图所示。
 
-![Eclipse](/images/android-env/eclipse.png)
-
-点击左侧的小机器人按钮，启动Android SDK Manager，下载相应的SDK或工具。打开右侧的小机器人按钮Android Virtual Device Manager创建模拟器。
+未完待续
 
 ## 可能出现的问题 ##
 由于我们是中国特色主义和谐社会，所以机器人这么暴力的东西还是抵御在长城的外围比较好，但是我们这群人可就遭殃了，还让不让人好好的玩机器人了，这就是出现的问题，看下图。
@@ -48,26 +45,7 @@ category: blog
 
 我要下载android开发的工具，但是竟然不能访问http://dl-ssl.google.com网站，导致无法下载。谢谢和谐社会。
 
-### 解决方法一 ###
-1. 访问http://tool.chinaz.com/  站长工具网站。
-2. 选择超级ping。
-
-	![tools](/images/android-env/tools.png)
-
-3. 输入dl-ssl.google.com，只勾选“海外”。
-
-	![ping](/images/android-env/ping.png)
-
-4. 在cmd界面ping查询出来的IP地址，ping出一个地址即可。
-5. 将74.125.129.93 dl-ssl.google.com写入到C:\Windows\System32\drivers\etc的hosts文件。
-6. 重新打开Android SDK Manager开始下载。
-
-### 解决方法二 ###
-如果方法一不行，则可以试试这个。
-
-1. 启动 Android SDK Manager ，打开主界面，依次选择「Tools」、「Options...」，弹出『Android SDK Manager - Settings』窗口；
-2. 在『Android SDK Manager - Settings』窗口中，在「HTTP Proxy Server」和「HTTP Proxy Port」输入框内填入mirrors.neusoft.edu.cn和80，并且选中「Force https://... sources to be fetched using http://...」复选框。设置完成后单击「Close」按钮关闭『Android SDK Manager - Settings』窗口返回到主界面；
-3. 依次选择「Packages」、「Reload」。
+解决方法请参考上一篇文章。
 
 
 
