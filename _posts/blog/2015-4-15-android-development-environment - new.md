@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android开发环境搭建-（2）
+title: Android开发环境搭建 -（2）
 description: 使用Eclipse来做android开发的另一种方式是使用独立的SDK，然后给Eclipse添加ADT插件。所以这次使用下载installer_r24.1.2-windows.exe的方式来搭建环境。
 category: blog
 ---

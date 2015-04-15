@@ -74,10 +74,19 @@ E:\adt-bundle-windows-x86-20140702，文件架内包括两个子文件夹和一�
 ### 解决方法三 ###
 如果SDK还是不能更新的话，那就翻墙吧，下个翻墙软件或者使用VPN，这就不在本文的范畴之内了。
 
+### 解决方法四 ###
+其实还有一种方法，就是利用其他人已经下载好的SDK，下载后直接放到自己的SDK目录中。
+比如说我的SDK Manager已经下载了从android 2.1到 Android L Priview的内容。adt-bundle-windows-x86-20140702文件夹下的sdk目录已经14.2G了，并且用了很长时间上传到了我的360云盘中，可以将它下载下来，覆盖掉你的电脑上那个sdk目录。上传结束之后竟然不能共享，原因是超过了2000个文件文件夹。所以只好把sdk目录打压缩包再继续上传，赫然发现压缩速度相对于之前的不压缩直接上传速度快多了，压缩之后只有3.5G了，所以可以将[SDK压缩包][4]下载下来（（  访问密码 f2e0）），解压缩覆盖掉你的那个sdk目录吧。
 
+至少可以这样试一下嘛，不过我没有这样做过，之前都是直接manager下载的。
+
+注意的是sdk文件夹中的.android文件夹就是之前提到的，创建的AVD保存的文件夹，这里面还有我之前创建的AVD，我并没有删除掉。
+
+![manager](/images/android-env/manager.jpg)
 
 
 
 [1]:    {{ page.url}}  ({{ page.title }})
 [2]: http://developer.android.com/
 [3]: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+[4]: http://yunpan.cn/cVkRffPK6kmbz
